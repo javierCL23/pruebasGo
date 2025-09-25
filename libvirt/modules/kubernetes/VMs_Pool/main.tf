@@ -21,6 +21,7 @@ resource "libvirt_volume" "base_image" {
   pool   = libvirt_pool.VMs_Pool.name
   source = var.iso_path
   format = "qcow2"
+  depends_on = [libvirt_pool.VMs_Pool]
 }
 
 resource "libvirt_volume" "VMs_Volumes" {

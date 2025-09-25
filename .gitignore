@@ -1,0 +1,17 @@
+# =========
+# Terraform
+# =========
+
+**/.terraform/
+
+# State files
+**/*.tfstate
+**/*.tfstate.backup
+**/.terraform.tfstate.lock.info
+
+# Crash logs
+**/crash.log
+
+# Lock files
+**/.terraform.lock.hcl
+
