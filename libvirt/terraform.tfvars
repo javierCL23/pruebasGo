@@ -24,13 +24,11 @@ machine_specs = {
     cpu    = 2
     memory = 4096
     disk   = 10 * 1024 * 1024 * 1024
-    ip     = "10.21.1.1"
   },
   Worker1 = {
     cpu    = 2
     memory = 2048
     disk   = 10 * 1024 * 1024 * 1024
-    ip     = "10.21.1.2"
   },
   #  Worker2 = {
   #    cpu    = 2

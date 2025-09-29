@@ -20,7 +20,6 @@ variable "machine_specs" {
     cpu    = number # Número de CPUs
     memory = number # Memoria en MB
     disk   = number # Tamaño del disco en GB
-    ip     = string # IP estática asignar a la máquina
   }))
   validation {
     condition     = contains(keys(var.machine_specs), "CP")
